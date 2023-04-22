@@ -1,0 +1,19 @@
+.textField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.textField .textField__label {
+    text-align: left;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.textField .textField__input {
+    width: 100%;
+    padding: 8px 12px;
+}

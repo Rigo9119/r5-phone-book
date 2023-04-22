@@ -1,0 +1,30 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.searchBar .searchBar__label {
+    margin: 12px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.searchBar .searchBar__field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    width: 80%;
+}
+
+.searchBar .searchBar__field .searchBar__field__input {
+    padding: 8px 12px;
+    width: 80%;
+}
+
+.searchBar .searchBar__field .searchBar__field__btn {
+    padding: 8px 12px;
+}

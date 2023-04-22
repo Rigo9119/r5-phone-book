@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25px;
+    height: 100vh;
+}
+
+.main .main__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    width: 50%;
+}
+
+.main .main__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 50%;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 50%;
+}
+
+.main .main__left .main__left__searchBar {
+    margin: 18px 0;
+    width: 100%;
+}
+
+.main .main__left .main__left__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    width: 55%;
+}
+
+.main .main__left .main__left__list .main__left__list__btn {
+    cursor: pointer;
+    background: lime;
+    border: 1px solid lime;
+    border-radius: 10px;
+    color: black;
+    padding: 12px 18px;
+}
+
+

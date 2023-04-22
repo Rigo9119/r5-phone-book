@@ -1,0 +1,24 @@
+.contact-card {
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    padding: 18px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact-card .contact-card__name {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    font-size: 18px;
+    width: 80%;
+}
+
+.contact-card .contact-card__name .contact-card__name__bold {
+    font-weight: bold;
+}
