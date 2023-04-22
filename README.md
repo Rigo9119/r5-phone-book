@@ -11,9 +11,9 @@ the Form to add contacts and the section were the user can search for save conta
 
 ## First steps
 
-- Clone the repo from [GitHub repo](https://github.com/Rigo9119/r5-phone-book).
-- cd to r5-phone-book
-- ```yarn ``` or ```yarn install ```
+- Clone the repo.
+- Change to the project by runing ```cd r5-phone-book```
+- Run ```yarn``` or ```yarn install``` to install dependencies
 - Run the development server with ```yarn dev```
 - Check the app in [local](http://localhost:5173/)
 
